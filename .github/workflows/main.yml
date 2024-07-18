@@ -28,7 +28,7 @@ jobs:
 
     - name: Scan for secrets
       run: |
-        trufflehog filesystem --directory=.
+        trufflehog filesystem .
       
     - name: Report result
       run: |
